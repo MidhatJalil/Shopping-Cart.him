@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: coral;
+    margin: 3rem 20rem;
+    height: 33rem;
+    width: 20rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px ghostwhite;
+}
+h1{
+    text-align: center;
+    padding-top: 1rem;
+
+}
+
+input{
+    height: 2rem;
+    width: 9rem;
+    display: block;
+    border-color: aliceblue;
+    border: none;
+    border: 2px;
+    margin-left: 6rem;
+}
+
+button{
+    height: 2rem;
+    width: 6rem;
+     margin: 0 5rem 1rem 5rem; 
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+p{
+    margin-left: 2rem;
+}
+
+label{
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: .7rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsive */
+@media (max-width:900px){
+
+html{
+    font-size: 80%;
+}
+
+.container{
+    height: 30rem;
+    width: 16rem;
+
+}
+button{
+    height: 1.8rem;
+    font-size: 4px;
+    }
+
+}
+
+@media (max-width:760px){
+
+    html{
+        font-size: 60%;
+    }
+    
+    .container{
+        height: 30em;
+        width: 16rem;
+        margin: 3rem 10rem;
+    
+    }
+    
+    h1{
+        font-size: 17px;
+    }
+    
+    p{
+        font-size: 7px;
+    }
+    label{
+        font-size: 7px;
+    }
+    button{
+    height: 1.8rem;
+    font-size: 4px;
+    }
+
+    }
